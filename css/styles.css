@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 100pt;
+    text-transform: uppercase;
+    font-family: 'Alegreya Sans SC', sans-serif;
+  /*  font-family: 'Codystar', cursive; */
+    font-weight: 100;
+    opacity: 0.3;
+}
+
+p {
+    font-size: 15pt;
+    text-transform: lowercase;
+    opacity: 0.6;
+
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a:hover{
+  text-decoration:underline;
+  }
+
+#video_background {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    opacity: 0.23
+}
+
+#bottom {
+    color: dimgray;
+    position: fixed;
+    bottom: 0;
+}
+
+/*
+#links
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+*/
+
+#centered {
+    left: 0;
+    line-height: 0px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+#bottom-right {
+     position: fixed;
+     bottom: 0;
+     right: 20px;
+    line-height: 10px;
+}
